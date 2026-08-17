@@ -1,2 +1,6 @@
+[project]
+name = "image-logger"
+version = "1.0.0"
+
 [tool.vercel]
 entrypoint = "image:handler"
